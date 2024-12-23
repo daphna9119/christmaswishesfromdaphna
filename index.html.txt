@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Christmas Greeting</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div id="messageBox" class="message-box"></div>
+      <div id="nameBox" class="name-box">
+        <label for="nameInput">Enter Your Name:</label>
+        <input type="text" id="nameInput" placeholder="NAME" />
+        <button id="submitBtn">Submit</button>
+        <p id="warningMessage">Please enter your name in all caps, no spaces, and no special characters.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
